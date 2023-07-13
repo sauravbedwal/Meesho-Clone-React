@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navBar{
+  background-color: white !important;
+  color: black;
+}
+
+.meeshoLogo{
+  width: 10vw;
+  height: auto;
+  /* margin-left: -8px; */
+}
+
+.navText{
+  font-size: 18px;
+  padding: 10px;
+  color: black;
+}
+
+.line{
+  height: 6vh;
+  margin: 10px;
+}
+
+.itemSpan{
+  color: black;
+  margin: 0 10px;
+  
+  /* padding: 10px; */
+}
+
+.itemSpan p{
+  text-align: center;
+  padding: 4px;
+  font-size: 19px;
+}
+
+.itemSpan button{
+  margin-bottom: -15px;
+}
+.reviews{
+    display: inline-flex;
+    /* -webkit-box-pack: center; */
+    justify-content: center;
+    /* -webkit-box-align: center; */
+    align-items: center;
+    border-radius: 16px;
+    padding: 4px 8px;
+    background: rgb(3, 141, 99);     /*rgb(35, 187, 117); */
+    color: white;
+}
+.span-card{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: left;
+  align-items: center;
+}
+.span-card span{
+  margin-bottom: -2px;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.card-css{
+  text-align: left;
+}
+.delivery{
+  border-radius: 20px;
+  background-color: #fdf3f3;
+}
+.buttons{
+  margin: auto;
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.buttons Button{
+  width: 13vw;
+  height: 7vh;
+}
+.cardText{
+  text-align: left;
+  margin-top: 40px;
+}

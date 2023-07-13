@@ -1,0 +1,2 @@
+1. meesho logo comes sometimes and sometimes not.
+2. ratng and stars coming after only first click or after saving it (code inside the main span) otherwise showing error.
