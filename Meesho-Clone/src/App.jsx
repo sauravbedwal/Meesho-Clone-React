@@ -12,7 +12,7 @@ function App() {
 
   const onSelectItem = (item) => {
     setSelectedItems((prevItems) => [...prevItems, item]);
-    console.log(item);
+    // console.log(item);
   };
 
   return (

@@ -4,6 +4,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
+// import "../App.css";
 
 import StarRateRoundedIcon from "@mui/icons-material/StarRateRounded";
 import CurrencyRupeeIcon from "@mui/icons-material/CurrencyRupee";
@@ -12,7 +13,7 @@ import { useNavigate } from "react-router-dom";
 export default function ProductCard({ product }) {
   const navigate = useNavigate();
   const cardClick = () => {
-    console.log(product.id);
+    // console.log(product.id);
     navigate(`/single-product/${product.id}`);
   };
 

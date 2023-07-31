@@ -26,7 +26,7 @@ const Item = styled(Paper)(({ theme }) => ({
 const SingleProduct = ({ onSelectItem }) => {
   const [productInfo, setProductInfo] = useState({});
   const params = useParams();
-  console.log(params);
+  // console.log(params);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -34,7 +34,7 @@ const SingleProduct = ({ onSelectItem }) => {
         `https://content.newtonschool.co/v1/pr/63b6c911af4f30335b4b3b89/products/${params.id}`
       );
       const data = await response.json();
-      console.log(data);
+      // console.log(data);
       setProductInfo(data);
     };
     fetchData();
@@ -105,9 +105,9 @@ const SingleProduct = ({ onSelectItem }) => {
                 >
                   Free Delivery
                 </Typography>
-                {/* <span className="span-card">
+                <span className="span-card">
                   <span className="reviews">
-                    {productInfo.rating.rate}
+                    {productInfo?.rating?.rate}
                     <StarRateRoundedIcon />
                   </span>
                   <Typography
@@ -115,9 +115,9 @@ const SingleProduct = ({ onSelectItem }) => {
                     variant="caption"
                     color="text.secondary"
                   >
-                    {productInfo.rating.count} reviews
+                    {productInfo?.rating?.count} reviews
                   </Typography>
-                </span> */}
+                </span>
               </CardContent>
             </Card>
             <Card className="cardText">
